@@ -1,0 +1,135 @@
+#navstyle{
+	width: 100%;
+	height: 100px;
+	margin:40px auto 20px;
+	background-color: white;
+	font-family: helvetica;
+	font-size:13px;
+	font-weight: lighter;
+	border-bottom: .5px solid #eee;
+	padding: 0;
+}
+
+#logo{
+	font-family: Palatino;
+	font-size: 50px;
+/*	letter-spacing: 3px;
+*/	text-align: left;
+	float: left;
+	margin-left: 7%;
+}
+
+#menulist{
+	float: right;
+	list-style: none;
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 25px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+	margin: 0 30px;
+}
+
+p{
+	font-family: Palatino,Georgia,Times;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000;
+}
+
+.gallery{
+	height: 100%;
+	width: 91%;
+	margin:0 7%;
+}
+
+.galleryrow{
+	width: 100%;
+	height: 100%;
+/*	margin-bottom: 3%;*/
+}
+
+/*.gallerybox{
+	width: 31%;
+	height: 300px;
+	margin-right:3.5%;
+	float: left;
+}*/
+
+/*.gallerybox{
+	box-sizing: border-box;
+	width: 31%;
+	height: 31%;
+	margin-right:3.5%;
+	float: left;
+	background-color: red;
+}*/
+
+/*.gallerybox{
+	background-image: url(img/1280.jpg);
+	width: 31%;
+	height: 31%;
+	margin:1%;
+	float: left;
+}*/
+
+.gallerybox{
+	width: 350px;
+	height: 350px;
+	margin:7px;
+	float: left;
+}
+
+.galleryimg{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 0;
+}
+
+#footer{
+	clear: both;
+	background-color: #111;
+	height: 200px;
+}
+
+#footerlegal{
+	text-align: center;
+	margin:0 auto;
+	padding: 30px 0 0 0;
+	font-family: helvetica;
+	line-height: 16px;
+	color: #a57a4b;
+	font-size: 13px;
+}
+
+@media screen and (max-width: 740px){
+
+#menulist{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
