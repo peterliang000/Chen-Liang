@@ -43,8 +43,8 @@ li{
 
 p{
 	font-family: Palatino,Georgia,Times;
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 20px;
+	line-height: 30px;
 	color: #000;
 }
 
@@ -75,7 +75,10 @@ p{
 #bio{
 	width: 85%;
 	float:left;	
-	margin-top: 10px;
+	margin-top: 25px;
+	border:1px solid #aaa;
+	padding: 20px;
+	text-align: center;
 }
 
 #footer{

@@ -54,7 +54,6 @@ p{
 	width: 1200px;
 	height: 350px;
 	margin:0 auto 30px;
-
 }
 
 #homebackground{
@@ -62,6 +61,17 @@ p{
 	height: 100%;
 	object-fit: cover;
 	object-position: 50% 50%;
+}
+
+.h3style{
+	text-align: center;
+	color: #999;
+	font-family: Palatino,Georgia,Times;
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+	margin: 0 14%;
 }
 
 #footer{
@@ -86,8 +96,23 @@ p{
 	display: none;
 }
 
+#homebox{
+	width: 576px;
+	height: 300px;
+	margin:0 auto 30px;
+}
 
-
+.h3style{
+	text-align: center;
+	color: #999;
+	font-family: Palatino,Georgia,Times;
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 300;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #999;
+/*	padding:0 1%;
+*/}
 
 
 
