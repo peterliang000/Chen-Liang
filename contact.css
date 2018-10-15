@@ -50,19 +50,42 @@ p{
 	background-image: linear-gradient(#fff, #eee);
 }
 
-#homebox{
-	width: 1200px;
-	height: 350px;
-	margin:0 auto 30px;
+.h1{
+	font-family: Palatino,Georgia,Times;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+.leftcolumn{
+	width: 30%;
+	margin-left:10%;
+	margin-right: 10%;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	float: left;
 
 }
 
-#homebackground{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: 50% 50%;
+.contactinfo{
+	width: 80%;
+	text-align: left;
 }
+
+#contactName{
+	border:1px solid #999;
+
+}
+
+.rightcolumn{
+	width: 30%;
+    margin-left:10%;
+	margin-right: 10%;
+	margin-top: 30px;
+	float: right;
+	margin-bottom: 60px;
+}
+
 
 #footer{
 	clear: both;
@@ -85,7 +108,6 @@ p{
 #menulist{
 	display: none;
 }
-
 
 
 
