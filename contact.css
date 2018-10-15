@@ -46,8 +46,15 @@ p{
 
 #content{
 	width: 100%;
-	height: 100%;
+	height: 600px;
 	background-image: linear-gradient(#fff, #eee);
+}
+
+#contactform{
+	width: 60%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
 .h1{
@@ -58,13 +65,11 @@ p{
 }
 
 .leftcolumn{
-	width: 30%;
-	margin-left:10%;
-	margin-right: 10%;
+	width: 50%;
+	margin-right: 5%;
 	margin-top: 30px;
 	margin-bottom: 60px;
 	float: left;
-
 }
 
 .contactinfo{
@@ -72,16 +77,29 @@ p{
 	text-align: left;
 }
 
-#contactName{
+#contactName, #contactEmail, #contactPhone, #contactMessage{
 	border:1px solid #999;
+	width: 100%;
+	height: 25px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	display: block;
+	font-family: Palatino,Georgia,Times;
+	padding: 5px;
+}
 
+#send{
+	float: right;
+	background-color: #777;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	color: white;
 }
 
 .rightcolumn{
-	width: 30%;
-    margin-left:10%;
-	margin-right: 10%;
-	margin-top: 30px;
+	width: 40%;
+	margin-top: 20px;
 	float: right;
 	margin-bottom: 60px;
 }
